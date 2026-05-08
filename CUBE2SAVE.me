@@ -101,3 +101,15 @@ Das versteht jeder.
 Das ist nicht überladen.
 Das ist logisch.
 Das ist Windows‑Policy‑klar.
+SAFE ist ein Policy-Modus.
+SAFE führt nur Aktionen aus, wenn Adminrechte vorhanden sind.
+
+User = 0 → SAFE blockiert Aktionen
+Admin = 1 → SAFE erlaubt Aktionen
+
+SAFE schützt das System, indem es NICHTS tut,
+wenn ein User etwas ausführen will, das Rechte erfordert.
+
+RAW_WAR ist der einzige Modus, der ohne Rechte funktioniert,
+weil er nichts verändert, sondern nur reagiert.
+
