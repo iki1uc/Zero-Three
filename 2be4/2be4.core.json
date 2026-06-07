@@ -1,9 +1,12 @@
 {
-  "id": "Z3-0ITEM-01",
-  "type": "zero-point",
-  "name": "ZeroThree Nullpunkt",
-  "zero": "Z3-0",
-  "one": "Z3-1",
-  "description": "Zero-Three definiert den Nullpunkt und den Einspunkt für alle 2be4 Werkzeuge."
+  "id": "2BE4-Z3-EVO1-R01",
+  "source": "ZeroThree",
+  "zeroRef": {
+    "zero": "Z3-0",
+    "one": "Z3-1"
+  },
+  "scan": {},
+  "tool": {},
+  "signals": {},
+  "schutz": {}
 }
-
